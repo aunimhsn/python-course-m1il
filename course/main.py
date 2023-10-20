@@ -1,2 +1,4 @@
-last_name = 'Doe'
-print(last_name)
+marks = [12, 15, 8]
+
+
+print(sorted(marks))
