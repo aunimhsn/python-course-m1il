@@ -5,10 +5,13 @@ user_input = int(input('Veuillez entrer un nombre entre 0 et 100 : '))
 attempts = 1
 
 while user_input != secret:
-    if secret > user_input:
-        print('C\'est plus')
-    else:
-        print('C\'est moins')
+    # if secret > user_input:
+    #     print('C\'est plus')
+    # else:
+    #     print('C\'est moins')
+
+    # Ternaire
+    print('C\'est plus') if secret > user_input else print('C\'est moins')
 
     user_input = int(input('Veuillez entrer un nombre entre 0 et 100 : '))
     attempts += 1

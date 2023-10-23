@@ -17,5 +17,5 @@ digits_mapping = {
 for digit in phone:
     result += digits_mapping.get(digit, "[Character not mapped]") + ' '
 
-result.trim
+result.strip()
 print(result)
